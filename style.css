@@ -1,0 +1,249 @@
+@font-face {
+  font-family: smartfontui;
+  src: url(03SmartFontUI.otf) format(opentype);
+}
+
+h1 {
+  color: dimgray;
+  font-family: "smartfontui";
+}
+
+p {
+  color: black;
+  font-weight: bold;
+  font-family: smartfontui;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    line-height: 20px;
+    margin: 0%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .mypic {
+    padding-bottom: 4%;
+  }
+
+  h1 {
+    border-left: 5px solid aqua;
+    margin-bottom: 3%;
+  }
+
+  .about,
+  .work,
+  .contact {
+    padding: 1%;
+  }
+
+  .title {
+    font-size: 18px;
+    color: dimgray;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .introduce {
+    padding: 0% 2% 4% 2%;
+  }
+
+  .work-box,
+  .contact-box {
+    padding: 0% 2%;
+  }
+
+  .summary {
+    padding: 0% 2% 2% 2%;
+    font-size: 10px;
+  }
+
+  .history_pic {
+    margin: 4% 0%;
+  }
+
+  .sns-links-container {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .sns-link {
+    width: 10%;
+    margin: 0% 7%;
+  }
+
+  .specialthanks {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    line-height: 40px;
+    margin: 0%;
+  }
+
+  .zentai-box {
+    margin: 2%;
+  }
+
+  h1 {
+    border-left: 5px solid aqua;
+  }
+
+  p,
+  li {
+    color: black;
+    font-weight: bold;
+    font-family: smartfontui;
+    font-size: 24px;
+  }
+
+  img {
+    width: 100%;
+    vertical-align: bottom;
+  }
+
+  .grand_box {
+    padding: 3%;
+  }
+
+  .about-grand {
+    display: flex;
+    padding-bottom: 2%;
+  }
+
+  .mypic {
+    text-align: left;
+    padding-right: 3%;
+  }
+
+  .about {
+    padding: 1% 2%;
+    margin-bottom: 7%;
+  }
+
+  .myself {
+    color: black;
+    font-weight: bold;
+    margin: 5% 0%;
+  }
+
+  .work-summary,
+  .contact-summary {
+    margin-top: 0%;
+  }
+
+  .work {
+    padding: 1% 1%;
+  }
+
+  .title {
+    font-size: 36px;
+    color: dimgray;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .title-second {
+    margin-top: 10%;
+  }
+
+  .work_name {
+    display: flex;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+
+  .summary {
+    margin: 2% 0%;
+  }
+
+  .history {
+    display: flex;
+    padding-bottom: 5%;
+    text-decoration: underline;
+    text-decoration-color: gray;
+  }
+
+  .history_pic {
+    width: 32%;
+  }
+
+  .history_pic_center {
+    width: 32%;
+    padding: 0% 2%;
+  }
+
+  .contact {
+    padding: 1% 1%;
+  }
+
+  .sns-links-container {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .sns-link {
+    width: 7%;
+    margin: 0% 7%;
+  }
+
+  .specialthanks {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 5%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.delay-time02 {
+  animation-delay: 0.2s;
+}
+
+.delay-time04 {
+  animation-delay: 0.4s;
+}
+
+.delay-time06 {
+  animation-delay: 0.6s;
+}
+
+.delay-time08 {
+  animation-delay: 0.8s;
+}
+
+.delay-time10 {
+  animation-delay: 1s;
+}
+
+.delay-time12 {
+  animation-delay: 1.2s;
+}
+
+.anime {
+  animation: fadeIn 1.5s ease 1 normal;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
